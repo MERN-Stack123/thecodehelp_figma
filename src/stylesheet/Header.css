@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+    /* background-color: gold; */
+}
+.header_nav{
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    color: #808080;
+}
+.header_logo{
+    width: 98px;
+    height: 82px;
+    margin-left: 113px;
+    margin-top: 53px;
+}
+.header_team{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 227px;
+    margin-top: 69px;
+    color: #4E5DC0;
+    cursor: pointer;
+}
+.header_about{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 72px;
+    margin-top: 69px;
+}
+.header_about:hover{
+    cursor: pointer;
+    color: #4E5DC0;
+    line-height: 10px;
+}
+.header_course{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 67px;
+    margin-top: 69px;
+}
+.header_course:hover{
+    cursor: pointer;
+    color: #4E5DC0;
+    line-height: 10px;
+}
+.header_contact{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 74px;
+    margin-top: 69px;
+}
+.header_contact:hover{
+    cursor: pointer;
+    color: #4E5DC0;
+    line-height: 10px;
+}
+.header_startbtn{
+    margin-left: 250px;
+    margin-top: 63px;
+
+}
+.btn{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    border: none;
+    background: #4E5DC0;
+    border-radius: 5px;
+    color: #ffff;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: center;
+    margin-right: 74px;
+    cursor: pointer;
+}
+
+@media (max-width:600px){
+    .header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header_nav{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-content: space-between;
+        align-items: center;
+        margin-right: 70px;
+        
+    }
+    .header_team {
+        margin-right: 8.6em;
+    }
+    .header_logo{
+        margin-right: 6.9em;
+    }
+    .header_course{
+        margin-left: 4.1em;
+    }
+    .header_startbtn{
+        margin-right: 11em;
+        margin-bottom: 2em;
+    }
+    a{
+        text-decoration: none;
+    }
+}
+
+

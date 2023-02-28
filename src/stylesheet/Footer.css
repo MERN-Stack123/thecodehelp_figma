@@ -1,0 +1,192 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+
+.footer{
+    display: flex;
+    margin: 0 70px;
+    margin-top: 49px;
+    margin-bottom: 67px;
+}
+.footer_option1{
+    text-align: left;
+    margin-right: 139px;
+}
+.footer_logo{
+    margin-top: 36px;
+    margin-bottom: 46px;
+    width: 98px;
+    height: 82px;
+}
+.footer_policy{
+    width: 220px;
+}
+.policy{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #4E5DC0;
+}
+.policy_text{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    color: #999999;
+    margin-top: 14px;
+    margin-right: 8px;
+}
+
+/* ----------------------------------------------------------------------------- */
+.footer_option2{
+    text-align: left;
+    margin-right: 149px;
+}
+.address{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #4E5DC0;
+}
+.footer_address, .footer_email{
+    width: 330px;
+}
+.address_text{
+    margin-top: 14px;
+    margin-bottom: 40px;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 32px;
+    color: #999999;
+}
+.email{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #4E5DC0;
+}
+.email_text{
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    color: #999999;
+    margin-top: 14px;
+
+}
+/* ----------------------------------------------------------------------------- */
+
+.footer_option3{
+    text-align: left;
+    margin-right: 149px;
+}
+.footer_menu{
+    width: 69px;
+}
+.menu{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #4E5DC0;
+    margin-bottom: 14px;
+}
+.menu_team, .menu_course, .menu_contact{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    color: #999999;
+}
+.menu_about{
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    color: #4E5DC0;
+}
+
+.footer_option4{
+    display: flex;
+    text-align: center;
+}
+.facebook{
+    width: 48px;
+    height: 48px;
+    background-color: #4E5DC0;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+.fi{
+    text-align: center;
+    margin-top: 16px;
+}
+.twitter{
+    width: 48px;
+    height: 48px;
+    background-color: #4E5DC0;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+.ti{
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 17px;
+}
+.instagram{
+    width: 48px;
+    height: 48px;
+    background-color: #4E5DC0;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+.ii{
+    text-align: center;
+    margin-top: 16px;
+}
+
+@media (max-width: 600px) {
+    .footer{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .footer_address, .footer_email, .footer_menu{
+        margin-top: 25px;
+    }
+    .address{
+        margin-bottom: 12px;
+    }
+    .email{
+        margin-bottom: 12px;
+    }
+    .menu{
+        margin-bottom: 12px;
+    }
+    .footer_option4{
+        margin-top: 25px;
+    }
+}
